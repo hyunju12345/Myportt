@@ -1,0 +1,85 @@
+/* 전체 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    background-color: #ffc9d5;
+    color: #59464a;
+    text-align: center; /* 모든 텍스트를 중앙 정렬 */
+}
+
+/* 헤더 스타일 */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #c18389;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3a557d;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #8b2240;
+}
+
+/* 메인 콘텐츠 스타일 */
+main {
+    padding: 20px;
+    display: flex; /* 플렉스 박스를 사용해 중앙 정렬 */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 160px); /* 헤더/푸터 높이 제외 */
+}
+
+.project-section {
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* 섹션 텍스트 중앙 정렬 */
+}
+
+.project-section h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.project-section p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
